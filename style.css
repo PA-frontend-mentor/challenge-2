@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card {
+  width: 300px;
+  height: 500px;
+  padding: 2rem 3rem 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .card p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body .card .btn-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 100px;
+}
+
+body .card .btn-wrapper button {
+  background-color: #f2f2f2;
+  padding: 16px 32px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+body .card .btn-wrapper button:hover {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px white solid;
+}
+
+body .card img {
+  margin-bottom: 2rem;
+  width: 60px;
+}
+
+body .card:nth-child(1) {
+  background-color: #e38826;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+body .card:nth-child(1) button {
+  color: #e38826;
+}
+
+body .card:nth-child(2) {
+  background-color: #006970;
+}
+
+body .card:nth-child(2) button {
+  color: #006970;
+}
+
+body .card:nth-child(3) {
+  background-color: #004241;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+body .card:nth-child(3) button {
+  color: #004241;
+}
+/*# sourceMappingURL=style.css.map */
